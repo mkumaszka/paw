@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nowy Klient</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body class="body">
+    <div class="title_container">
+        <h1 class="title">STUDIO DOBREGO STYLU</h1>
+    </div>
+    <header class="header">
+        <nav id="nav">
+            <div class="tiles">
+                <a href="html_1.html"><img src="data:image/png;base64,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"
+                        alt = "buuu" height="60" width="60"></a>
+            </div>
+            <div class="tiles">
+                <a href="nowy_klient_form.html">Zarejstruj się</a>
+            </div>
+            <div class="tiles">
+                <a href="#kontakt">Kontakt</a>
+            </div>
+            <div class="tiles">
+                <a href="tabela_rozmiarow.html">Nasze rozmiary</a>
+            </div>
+            <div class="tiles">
+                <a href="nasza_historia.html">O nas</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="greetings">
+        <h2>WITAJ W STUDIO DOBREGO STYLU</h2>
+    </div>
+
+    <div class="form_container">
+        <form action="form_2.html" autocomplete="on">
+            <br><br>
+            <div class="input-section">
+                <label for="name" class="label">Imie</label><br>
+                <input type="text" name="name" id="name" class="input_value" autofocus><br><br>
+
+                <label for="last_name" class="label">Nazwisko</label><br>
+                <input type="text" name="last_name" id="last_name" class="input_value" required><br><br>
+
+                <label for="month" class="label">Miesiąc Urodzenia</label><br>
+                <input list="months" id="month" class="input_value">
+                <datalist id="months">
+                    <option value="Styczeń">
+                        <option value="Luty">
+                            <option value="Marzec">
+                                <option value="Kwiecień">
+                                    <option value="Maj">
+                                        <option value="Czerwiec">
+                                            <option value="Lipiec">
+                                                <option value="Sierpień">
+                                                    <option value="Wrzesień">
+                                                        <option value="Październik">
+                                                            <option value="Listopad">
+                                                                <option value="Grudzień">
+                </datalist><br><br>
+
+                <label for="country" class="label">Kraj</label><br>
+                <input type="text" id="country" class="input_value" disabled placeholder="Polska"><br><br>
+
+                <label for="e-mail" class="label">E-mail</label><br>
+                <input type="email" id="e-mail" class="input_value" required><br><br>
+
+                <label for="phone" class="label">Telefon</label><br>
+                <input id="phone" class="input_value" name="phone" type="tel" required pattern="[0-9]{3}[\s][0-9]{3}[\s][0-9]{3}">
+                <label for="phone">Format: 666 666 666</label><br><br>
+
+                <label for="password" class="label">Hasło</label><br>
+                <input type="password" class="input_value" name="password" id="password"><br><br>
+
+                <label class="label">Dodaj uwagi: </label><br>
+                <textarea name="uwagi" rows="4" cols="50" maxlength="200"></textarea>
+            </div>
+
+            <div class="radio-section">
+                <p>Wybierz płeć</p>
+
+                <input type="radio" name="gender" value="male" id="male" checked>
+                <label for="male">Mężczyzna</label><br>
+
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Kobieta</label><br>
+            </div>
+
+            <div class="check-section">
+                <div class="check-element">
+                    <input type="checkbox" name="newsletter"> Tak chcę otrzymywać newsletter o trendach, ofertach specjalnych
+                    oraz otrzymać kupon rabatowy w wysokości 10% na zakupy powyżej 200 zł.
+                </div>
+                <div class="check-element">
+                    <input type="checkbox" name="personalData" required> Wyrażam zgodę na przetwarzanie moich danych osobowych
+                    przez firmę "Studio dobrego stylu" w celach marketingowych.<br>
+                </div>
+            </div>
+            <div class="submit-section">
+                <div class="submit-element">
+                    <input type="submit" value="ZAREJSTRUJ SIĘ" class="button">
+                </div>
+                <div class="submit-element">
+                    <input type="reset" value="USUŃ DANE" class="button">
+                </div>
+            </div>
+
+        </form>
+        </div>
+
+</body>
+
+</html>

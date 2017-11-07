@@ -1,0 +1,187 @@
+@keyframes div-menu-animation
+{
+  0% { background-color:lightgoldenrodyellow;  }
+  50% { background-color:lightyellow; }
+  75% { background-color:#F5DEB3; }
+  100% { background-color:lightgoldenrodyellow; }
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes skew
+{
+    from { transform: skewX(0deg); }
+    25% { transform: skewX(45deg); }
+    50% { transform: skewX(0); }
+    75% { transform: skewX(-45deg); }
+    to { transform: skewX(0); }
+}
+
+
+.header_h1 {
+    color: #662E1C;
+    text-align:center;
+}
+
+.footer {
+    border:#662E1C solid 1px; 
+    text-align: center; 
+    margin-top: 30px; 
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.title_container {
+    margin-top:0%;
+    border: 15px solid transparent;
+    padding: 0px;
+    border-image-source: url(data:image/png;base64,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);
+    border-image-repeat: round;    
+    border-image-slice: 40;
+}
+
+.title {
+    color:#662E1C;
+    text-shadow: 5px 5px 2px #DEB887;
+    text-align: center;
+    font-size: 50px; 
+}
+
+.title_container:hover > .title  {
+    animation: roll 3s;
+}
+
+.body {
+    background-color: white;
+}
+
+.section_names {
+    color: #CD853F;
+}
+
+
+.container {
+    position: relative; 
+    margin: 5% 20% 5% 20%;
+    border: #DEB887 solid 1px;
+    padding: 30px 160px;
+    border-radius: 70px;
+    box-shadow: 10px 10px 5px #888888;
+  
+}
+
+.container:hover {
+    animation: div-menu-animation infinite;
+    animation-duration: 4s;
+}
+
+.tiles:hover {
+    width: 300px;
+    background-color: lightgray;
+}
+
+#ti1:hover {
+    background-color: lightcoral;
+}
+
+#ti2:hover {
+    background-color: lightsalmon;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:active {
+    background-color: darkgray;
+}
+
+a:visited { 
+    color: black;
+}
+
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+
+.tiles {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 90px; 
+    transition: width 2s;
+    width: 200px;
+    font-size: 20px;
+    margin: 0%;
+}
+
+#nav  {
+    display: flex; 
+    flex-direction: row ;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    border-bottom: 2px black solid;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 150%;
+}
+
+.newspaper {
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    /* -webkit-column-count: 3; Safari, Opera */
+    /* -moz-column-count: 3; Firefox */
+    column-count: 4;
+    /* -webkit-column-gap: 40px; Chrome, Safari, Opera */
+    /* -moz-column-gap: 40px; Firefox */
+    column-gap:60px;
+    /* -webkit-column-rule: 4px outset #ff00ff; Chrome, Safari, Opera */
+    /* -moz-column-rule: 4px outset #ff00ff; Firefox */
+    column-rule: 3px outset black;
+
+    background: rgba(226,156,194,0.9); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(226,156,194,0.9), hsla(298, 55%, 45%, 0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(226,156,194,0.9), hsla(298, 55%, 45%, 0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(226,156,194,0.9), hsla(298, 55%, 45%, 0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(226,156,194,0.9), hsla(298, 55%, 45%, 0.9)); /* Standard syntax */
+
+}
+
+#cover {
+    position: relative;
+    margin: 0 auto;
+}
+#cover img {
+    position: absolute;
+    left: 0;
+    transition: opacity 6s ease-in-out;
+}
+#cover img.top:hover{
+    opacity: 0;
+}
+
+

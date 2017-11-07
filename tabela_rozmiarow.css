@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th, td {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-color: brown;
+    border-style: dotted;
+}
+
+th {
+    text-align: center;
+    color: brown;
+    
+}
+
+.table {
+    margin-left: 20%;
+}
+
+.table_1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.table_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+tr:hover {
+    background-color: #f5f5f5
+}

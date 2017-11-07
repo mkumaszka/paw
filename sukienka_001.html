@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type = "text/css">
+        em {
+            font-weight: 600;
+            font-style: italic;
+            font-variant: small-caps;
+            color: black
+        }
+        p.small {
+            line-height: 100px
+        }
+        p.big {
+            line-height: 300px
+        }
+        body {
+            background-color: #FFFAFA
+        }
+        .image_cont {
+            float:left
+        }
+        .select_st {
+            display: block; 
+            width: 30em
+        }
+        .submit {
+            width:30em
+        }
+        .container {
+            margin-left: 5em;
+            width: 720px
+        }
+        .text {
+            width: 30em; 
+            margin-bottom: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="image_container" class="image_cont">
+        <img src="https://stylovesukienki.pl/997/kobaltowa-szyfonowa-dluga-sukienka-na-sylwestra-z-glebokim-dekoltem-z-cekinami-i-siateczka.jpg"
+            alt="model_001" width="380" height="550">
+    </div>
+  
+    <div id="text_container" class="container">
+        <h1>Sukienka <em>Letni Haber</em></h1>
+        <h3>Sukienka elegancka długa</h3>
+        <p>255,20 ZŁ</p>
+        <h3>Rozmiary</h3>
+        <p>Jeśli nie ma Twojego rozmaru, zostaw nam swój adres email.Powiadomimy Cię kiedy produkt będzie dostępny</p>
+        <select name="rozmiary" class="select_st">
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option selected>XL</option>
+        </select>
+        <form>
+            <input type="text" name="mail" placeholder="Twój adres e-mail" class="text"><br>
+            <input type="submit" value="Powiadom Mnie" class="submit">
+        </form>
+        <br><a href="tabela_rozmiarow.html"><h3>Sprawdź swój rozmiar</h3></a>
+    </div>
+</body>
+
+</html>
+

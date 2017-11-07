@@ -1,0 +1,83 @@
+@media all {
+    body {
+        min-height: 300px;
+    }
+    h1 {
+        color: grey;
+        font-weight: bolder;
+    }
+    li {
+        color: darkgrey;
+        font-weight: bolder;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    h1 {
+        color: black
+    }
+    li {
+        color: black
+    }
+}
+
+
+@font-face {
+    font-family: 'Kaushan';
+    font-style: normal;
+    font-weight: 400;
+    src: local('KaushanScript-Regular'),
+    url('C:/Users/Asus/Downloads/lab_3/KaushanScript-Regular.ttf') format('truetype');
+}
+
+
+.center {
+    font-family: 'Kaushan';
+    margin: auto;
+    width: 50%;
+    border: 10px;
+    padding: 10px;
+    background: -webkit-radial-gradient(center, hsla(317, 55%, 65%, 0.9), white);
+    background: -moz-radial-gradient(center, hsla(317, 55%, 65%, 0.9), white);
+    background: radial-gradient(center, hsla(317, 55%, 65%, 0.9), white);
+}
+@media screen and (min-width: 481px) and
+    (max-width: 1024px)
+    {
+        .center 
+        {
+            /* -webkit-column-count: 3; Safari, Opera */
+            /* -moz-column-count: 3; Firefox */
+            column-count: 2;
+            /* -webkit-column-gap: 40px; Chrome, Safari, Opera */
+            /* -moz-column-gap: 40px; Firefox */
+            column-gap:60px;
+            /* -webkit-column-rule: 4px outset #ff00ff; Chrome, Safari, Opera */
+            /* -moz-column-rule: 4px outset #ff00ff; Firefox */
+            column-rule: 3px outset black;
+        }
+    }
+@media screen and (min-width: 1025px)
+{
+    .center 
+    {
+        /* -webkit-column-count: 3; Safari, Opera */
+        /* -moz-column-count: 3; Firefox */
+        column-count: 3;
+        /* -webkit-column-gap: 40px; Chrome, Safari, Opera */
+        /* -moz-column-gap: 40px; Firefox */
+        column-gap:60px;
+        /* -webkit-column-rule: 4px outset #ff00ff; Chrome, Safari, Opera */
+        /* -moz-column-rule: 4px outset #ff00ff; Firefox */
+        column-rule: 3px outset black;
+    }
+}
+
+p
+{
+    color: red;
+    font-weight: bold
+}

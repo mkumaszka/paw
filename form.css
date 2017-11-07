@@ -1,0 +1,81 @@
+input:required{
+    border: 1px solid black;
+}
+
+input:required:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.label {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+}
+
+.input_value {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 15px;
+}
+
+.input-section {
+    margin-left: 37%;
+}
+
+.form_container {
+    background-image: url(https://ak4.picdn.net/shutterstock/videos/22572514/thumb/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+
+.radio-section {
+    text-align: center;
+    margin-top: 8px;
+    margin-top: 10px;
+}
+
+.submit-section {
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.submit-element {
+    float: left;
+    margin: 10px; 
+}
+
+.button {
+    margin-bottom: 50px;
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+    transition: height 3s;
+}
+
+.button:hover {
+    height: 50px;
+    background-color: darkgrey;
+    animation: skew 5s infinite;
+}
+
+.check-section {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.greetings {
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+input[type=text]:disabled {
+    background-color: lightcyan;
+}
+
+input[type=text]:enabled {
+    background: #F8F8FF;
+}
